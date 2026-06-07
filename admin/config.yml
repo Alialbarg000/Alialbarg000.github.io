@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: Alialbarg000/Alialbarg000.github.io # <-- Change this!
-  branch: main # Change to master if your default branch is master
+  repo: Alialbarg000/Alialbarg000.github.io
+  branch: main
+  identity_url: "https://sansoonyachtservices.netlify.app/.netlify/identity"
 
 media_folder: "images" # Where uploaded images will go
 public_folder: "/images"
