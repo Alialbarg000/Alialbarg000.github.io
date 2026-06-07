@@ -1,1 +1,19 @@
 
+backend:
+  name: github
+  repo: Alialbarg000/Alialbarg000.github.io # <-- Change this!
+  branch: main # Change to master if your default branch is master
+
+media_folder: "images" # Where uploaded images will go
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Main Body Text", name: "body", widget: "markdown" }
